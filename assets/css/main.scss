@@ -41,3 +41,26 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.author__avatar {
+  width: 100%;
+  max-width: 260px;   /* 你可以改成 220 / 240 / 280 */
+  overflow: visible !important;
+  border-radius: 0 !important;
+}
+
+.author__avatar img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  border-radius: 0 !important;
+  object-fit: contain !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page__content h2[id] {
+  scroll-margin-top: 90px;
+}
