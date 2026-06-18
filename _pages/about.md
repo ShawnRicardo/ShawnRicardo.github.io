@@ -30,20 +30,21 @@ My current research interests include:
 
 ## <span id="news">News</span>
 
-- [2025.08] 1 paper was accepted to Knowledge-Based Systems (KBS, SCI 1 Top) 2025
+- [2026.06] 1 paper was accepted to European Conference on Computer Vision (ECCV) 2026!
+- [2025.08] 1 paper was accepted to Knowledge-Based Systems (KBS, SCI 1 Top) 2025!
 
 
 ## <span id="publications">Publications</span>
 
-1. **ActiveFreq: Integrating active learning and frequency domain analysis for interactive segmentation**  
+1. **Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints**  
+    **Lijun Guo**, Haoyu Zhao, Xingyue Zhao, Rong Fu, Linghao Zhuang, Siteng Huang, Zhongyu Li, Hua Zou  
+    *ECCV, 2026*  
+    [[Paper]](https://arxiv.org/abs/2603.11606) [[Project Page]](https://maxwell-zhao.github.io/Articulat3D/) [[Code]](https://github.com/ShawnRicardo/Articulat3D) [[Dataset]](https://huggingface.co/datasets/ShawnRicardo/Articulat3D-Sim)
+
+2. **ActiveFreq: Integrating active learning and frequency domain analysis for interactive segmentation**  
     **Lijun Guo**, Qian Zhou, Zidi Shi, Hua Zou, Gang Ke  
     *Knowledge-Based Systems, 2025*  
     [[Paper]](https://arxiv.org/abs/2603.11498)
-
-2. **Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints**  
-    **Lijun Guo**, Haoyu Zhao, Xingyue Zhao, Rong Fu, Linghao Zhuang, Siteng Huang, Zhongyu Li, Hua Zou  
-    *arXiv Preprint, 2026*  
-    [[Paper]](https://arxiv.org/abs/2603.11606) [[Project Page]](https://maxwell-zhao.github.io/Articulat3D/) [[Code]](https://github.com/ShawnRicardo/Articulat3D) [[Dataset]](https://huggingface.co/datasets/ShawnRicardo/Articulat3D-Sim)
 
 
 ## <span id="experiences">Experiences</span>
