@@ -36,12 +36,17 @@ My current research interests include:
 
 ## <span id="publications">Publications</span>
 
-1. **Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints**  
+1. **ArticuTable: Generating Instance-Level Interactive Rigid-Articulated 3D Tabletop Scenes from a Single Image**  
+    Kai Lv, Yibo Yin, **Lijun Guo**, Heng Fan, Kaihao Zhang, Xingping Dong  
+    *arXiv, 2026*  
+    [[Paper]](https://arxiv.org/pdf/2610.05249) [[Project Page]](https://johnnyboy1013.github.io/articutable-project/) [[Code]](https://github.com/bryceyin13/articutable-code) [[Dataset]](https://drive.google.com/file/d/1udTcI9ESuk-TbKOYjIQ4ti8t4CMoGW4b/view?usp=sharing)
+
+2. **Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints**  
     **Lijun Guo**, Haoyu Zhao, Xingyue Zhao, Rong Fu, Linghao Zhuang, Siteng Huang, Zhongyu Li, Hua Zou  
     *ECCV, 2026*  
     [[Paper]](https://arxiv.org/abs/2603.11606) [[Project Page]](https://maxwell-zhao.github.io/Articulat3D/) [[Code]](https://github.com/ShawnRicardo/Articulat3D) [[Dataset]](https://huggingface.co/datasets/ShawnRicardo/Articulat3D-Sim)
 
-2. **ActiveFreq: Integrating active learning and frequency domain analysis for interactive segmentation**  
+3. **ActiveFreq: Integrating active learning and frequency domain analysis for interactive segmentation**  
     **Lijun Guo**, Qian Zhou, Zidi Shi, Hua Zou, Gang Ke  
     *Knowledge-Based Systems, 2025*  
     [[Paper]](https://arxiv.org/abs/2603.11498)
