@@ -1,0 +1,25 @@
+---
+layout: academic
+---
+<div class="row">
+  <aside class="col-lg-3 col-md-4 mb-3 mb-md-0" aria-label="Profile">
+    {% include academic/profile.html %}
+  </aside>
+  <div class="col-lg-9 col-md-8">
+    <section id="about" class="card border-0 shadow-sm bg-white">
+      <div class="card-body p-4">
+        <h1 class="h3 mb-3">About Me</h1>
+        <div class="text-profile-bio">{{ content }}</div>
+        <div id="research" class="research-interests mb-3" aria-label="Research interests">
+          {% for interest in site.data.homepage.research_interests %}
+          <span class="badge badge-light border font-weight-normal mr-1 mb-1">{{ interest }}</span>
+          {% endfor %}
+        </div>
+        <a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV</a>
+      </div>
+    </section>
+    {% include academic/experience.html %}
+    {% include academic/news.html %}
+    {% include academic/publications.html heading='Selected Publications' %}
+  </div>
+</div>

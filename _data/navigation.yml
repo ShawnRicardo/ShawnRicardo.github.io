@@ -50,3 +50,14 @@ main:
 
   - title: "Awards and Honors"
     url: /#awards
+
+# Navigation for the default academic-homepage Home layout.
+pages:
+  - name: Home
+    url: /
+  - name: News
+    url: /#news
+  - name: Publications
+    url: /#publications
+  - name: CV
+    url: /files/cv.pdf

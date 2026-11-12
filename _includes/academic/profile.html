@@ -1,0 +1,21 @@
+<div class="profile-sticky">
+  <div class="card border-0 shadow-sm bg-white">
+    <div class="card-body px-4 pt-4 pb-3 text-center">
+      <img class="img-fluid profile-portrait mb-3" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="400" height="400" alt="{{ site.name }}">
+      <h2 class="h4 mb-1">{{ site.name }}</h2>
+      <div class="text-muted mb-3 profile-secondary-name" lang="zh-CN">{{ site.data.homepage.secondary_name }}</div>
+      <div class="small mb-2">
+        <div>{{ site.data.homepage.position }}</div>
+        <div>{{ site.data.homepage.department }}</div>
+        <div>{{ site.author.employer }}</div>
+      </div>
+      <div class="small"><a class="email-text" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
+      <div class="profile-socials mt-3 mb-1">
+        <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID" title="ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+        <a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download CV" title="Download CV"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>

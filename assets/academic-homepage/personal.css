@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/lato-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/lato-bold.ttf") format("truetype");
+}
+body {
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #212529;
+}
+html { scroll-behavior: smooth; }
+.academic-home [id] { scroll-margin-top: 5rem; }
+.profile-sticky { position: sticky; top: 5rem; }
+.profile-portrait { width: 100%; height: auto; border-radius: .35rem; }
+.profile-secondary-name { font-size: 1rem; }
+.email-text {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: .77rem;
+  overflow-wrap: anywhere;
+}
+.profile-socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .9rem;
+  font-size: 1.35rem;
+}
+.profile-socials a { min-width: 1.5rem; }
+.text-profile-bio p:last-child { margin-bottom: .9rem; }
+.research-interests .badge { padding: .35rem .5rem; color: #555; }
+.publication-cover {
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: #fff;
+  border-radius: .2rem;
+}
+.publication-title { line-height: 1.35; }
+.publication-links a { display: inline-block; padding-block: .15rem; }
+.publication-item:last-child { border-bottom: 0 !important; }
+.awards-list, .education-list, .publication-authors { overflow-wrap: anywhere; }
+.skip-link {
+  position: fixed;
+  top: -5rem;
+  left: 1rem;
+  z-index: 1100;
+  padding: .75rem 1rem;
+  background: #fff;
+  color: #0056b3;
+}
+.skip-link:focus { top: .5rem; }
+a:focus-visible, button:focus-visible { outline: 2px solid #007bff; outline-offset: 3px; }
+@media (max-width: 767.98px) {
+  .profile-sticky { position: static; }
+  .profile-portrait { max-width: 150px; }
+}
+@media (max-width: 575.98px) {
+  .publication-title { font-size: 1.1rem; }
+  .news-item { gap: .4rem; }
+  .footer .container-lg { gap: .5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+@media print {
+  body { padding-top: 0; }
+  .navbar, .skip-link { display: none; }
+  .profile-sticky { position: static; }
+}

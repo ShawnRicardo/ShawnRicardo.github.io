@@ -1,0 +1,17 @@
+{% assign publication = include.publication %}
+<article class="row no-gutters border-bottom publication-item">
+  <div class="col-md-3 col-xl-2 p-3 d-none d-md-block">
+    <a href="{{ publication.links['Project Page'] | default: publication.links.Paper }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ publication.title | escape }}">
+      <img class="publication-cover w-100" src="{{ publication.cover | relative_url }}" alt="{{ publication.cover_alt | escape }}" width="300" height="200" loading="lazy" decoding="async">
+    </a>
+  </div>
+  <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+    <h3 class="h5 mt-0 mb-1 font-weight-normal publication-title">{{ publication.title }}</h3>
+    <p class="small mb-1 publication-authors">{% for author in publication.authors %}{% if author == site.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    <p class="small mb-1"><i>{{ publication.venue }}</i>, {{ publication.year }}</p>
+    <p class="small text-muted mb-1">{{ publication.summary }}</p>
+    <div class="small publication-links">
+      {% for link in publication.links %}<a class="mr-1" href="{{ link[1] }}" target="_blank" rel="noopener noreferrer">[{{ link[0] }}]</a>{% endfor %}
+    </div>
+  </div>
+</article>

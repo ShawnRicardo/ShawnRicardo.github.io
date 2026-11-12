@@ -1,3 +1,16 @@
+# Lijun Guo's Personal Homepage
+
+The homepage uses the default **Home** layout from
+[luost26/academic-homepage](https://github.com/luost26/academic-homepage).
+Edit `_pages/about.md` for the biography and `_data/homepage.yml` for papers,
+news, education, and awards. See [the maintenance guide](docs/homepage-maintenance.md)
+for layout details and local preview commands.
+
+The existing Academic Pages infrastructure and secondary layouts are retained.
+Its original setup documentation follows.
+
+---
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

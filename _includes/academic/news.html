@@ -1,0 +1,19 @@
+{% assign news_by_year = site.data.homepage.news | group_by: 'year' %}
+<section id="news" class="my-3 bg-white shadow-sm rounded-xl" aria-labelledby="news-heading">
+  <h2 id="news-heading" class="h6 p-3 mb-0 border-bottom"><i class="fas fa-rss mr-1" aria-hidden="true"></i> News</h2>
+  <div class="px-3 pb-2 pt-1 small">
+    {% for year in news_by_year %}
+    <div class="media py-2{% unless forloop.first %} border-top{% endunless %}">
+      <div class="mr-3 text-muted">{{ year.name }}</div>
+      <div class="media-body">
+        {% for item in year.items %}
+        <div class="d-flex news-item{% unless forloop.last %} mb-2{% endunless %}">
+          <div>{{ item.text }}</div>
+          <time class="ml-auto pl-3 text-muted no-break" datetime="{{ item.datetime }}"><i>{{ item.month }}</i></time>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,82 @@
+# Content for the default Home layout from luost26/academic-homepage.
+position: "Master's Student"
+secondary_name: "郭李军"
+department: "School of Computer Science"
+research_interests:
+  - Medical Image Analysis
+  - 3D Vision
+  - Embodied AI
+
+education:
+  - name: Wuhan University
+    department: School of Computer Science
+    position: Master's Student
+    date: Sep. 2025 – Present
+  - name: Wuhan University
+    department: School of Computer Science
+    position: B.Eng.
+    date: Sep. 2021 – Jun. 2025
+
+awards:
+  - name: Wuhan University First-class Scholarship (Top 5%)
+    date: 2021.09 – 2025.06
+  - name: Lei Jun Computer Innovation and Development Fund
+    date: 2024.10 & 2025.10
+  - name: National Third Prize, China Software Cup College Student Software Design Competition
+    date: 2023.08
+  - name: Provincial First Prize, Chinese Collegiate Computer Design Competition
+    date: 2024.06
+  - name: Provincial Third Prize, China Collegiate Computing Contest – Mobile Application Innovation Competition
+    date: 2023.06
+
+news:
+  - year: "2026"
+    month: Jun
+    datetime: "2026-06"
+    text: '1 paper was accepted to <strong>European Conference on Computer Vision (ECCV) 2026</strong>!'
+  - year: "2025"
+    month: Aug
+    datetime: "2025-08"
+    text: '1 paper was accepted to <strong>Knowledge-Based Systems (KBS, SCI 1 Top) 2025</strong>!'
+
+# Display order is explicit. An author matching site.name is highlighted.
+# Resource URLs and venues are retained from the previous homepage.
+publications:
+  - title: "ArticuTable: Generating Instance-Level Interactive Rigid-Articulated 3D Tabletop Scenes from a Single Image"
+    authors: [Kai Lv, Yibo Yin, Lijun Guo, Heng Fan, Kaihao Zhang, Xingping Dong]
+    venue: arXiv
+    year: "2026"
+    cover: /images/publications/articutable.webp
+    cover_alt: An interactive tabletop scene reconstructed with ArticuTable
+    cover_source: https://johnnyboy1013.github.io/articutable-project/assets/joint_cycle-poster.webp
+    summary: "Reconstructing interactive rigid-articulated 3D tabletop scenes from a single image, with executable part-level motion and a consistent scene layout."
+    links:
+      Paper: https://arxiv.org/pdf/2610.05249
+      Project Page: https://johnnyboy1013.github.io/articutable-project/
+      Code: https://github.com/bryceyin13/articutable-code
+      Dataset: https://drive.google.com/file/d/1udTcI9ESuk-TbKOYjIQ4ti8t4CMoGW4b/view?usp=sharing
+
+  - title: "Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints"
+    authors: [Lijun Guo, Haoyu Zhao, Xingyue Zhao, Rong Fu, Linghao Zhuang, Siteng Huang, Zhongyu Li, Hua Zou]
+    venue: ECCV
+    year: "2026"
+    cover: /images/publications/articulat3d.png
+    cover_alt: Overview of the Articulat3D articulated reconstruction pipeline
+    cover_source: https://maxwell-zhao.github.io/Articulat3D/static/images/pipeline.png
+    summary: "Reconstructing articulated digital twins from monocular videos using geometric and motion constraints."
+    links:
+      Paper: https://arxiv.org/abs/2603.11606
+      Project Page: https://maxwell-zhao.github.io/Articulat3D/
+      Code: https://github.com/ShawnRicardo/Articulat3D
+      Dataset: https://huggingface.co/datasets/ShawnRicardo/Articulat3D-Sim
+
+  - title: "ActiveFreq: Integrating active learning and frequency domain analysis for interactive segmentation"
+    authors: [Lijun Guo, Qian Zhou, Zidi Shi, Hua Zou, Gang Ke]
+    venue: Knowledge-Based Systems
+    year: "2025"
+    cover: /images/publications/activefreq.png
+    cover_alt: FreqFormer architecture for interactive medical image segmentation
+    cover_source: https://arxiv.org/html/2603.11498v1/Fig3-Network.png
+    summary: "Combining active learning and frequency-domain features for interactive medical image segmentation with fewer user interactions."
+    links:
+      Paper: https://arxiv.org/abs/2603.11498
